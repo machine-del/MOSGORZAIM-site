@@ -1,0 +1,306 @@
+@media (max-width: 1600px) {
+    .feedback {
+        justify-content: unset;
+    }
+
+    .feedback__content {
+        margin-left: unset;
+    }
+
+    .feedback__info {
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-start;
+        gap: 40px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .benefit {
+        height: 100%;
+        padding: 50px;
+    }
+
+    .benefit__content {
+        flex-direction: column;
+    }
+
+    .benefit__content--arrow {
+        margin: 0;
+        transform: rotate(90deg);
+        padding: 50px;
+    }
+
+    .aboutjob__info {
+        flex-direction: column;
+    }
+
+    .icon-arrow-right {
+        justify-content: center;
+        transform: rotate(90deg);
+    }
+
+    .requirments__title {
+        margin: 60px auto 40px auto;
+        text-align: center;
+    }
+
+    .requirments__info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 27px 18px;
+        background-color: #545662;
+        margin-right: 20px;
+    }
+
+    .header__personal {
+        padding: 0px 25px 0px 25px;
+    }
+
+    .header__title {
+        flex-grow: 1;
+    }
+
+    .header__services {
+        display: none;
+    }
+
+    .header__buttons {
+        display: none;
+    }
+
+    .header__phone-box {
+        display: none;
+    }
+
+    .header__personal-link {
+        display: none;
+    }
+
+    .calculator__title {
+        margin: 60px 0px 90px -50px;
+    }
+
+    .calculator__description {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    .main__car {
+        left: -60px;
+        bottom: 94px;
+    }
+
+    .main__content {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .main__info {
+        flex-direction: column;
+        width: 254px;
+        padding: 0;
+        align-items: baseline;
+    }
+
+    .calculator__title {
+        margin: 30px 0px 60px 30px;
+        font-size: 30px;
+    }
+
+    .calculator__tabs.row {
+        --bs-gutter-x: 0;
+    }
+
+    .calculator__content.row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer__box {
+        gap: 15px;
+    }
+
+    .footer__content {
+        padding: 44px 10px 44px 10px;
+    }
+
+    .footer__address {
+        width: 100%;
+    }
+
+    .feedback__readfull {
+        width: 100%;
+        height: 100%;
+    }
+
+    .feedback__item {
+        width: 307px;
+        height: 370px;
+    }
+
+    .aboutjob__title {
+        margin: 181px 0px 90px 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .calculator__title {
+        margin: 30px 0px 50px 30px;
+        font-size: 24px;
+    }
+
+    .calculator__content {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    .text-group {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.09px;
+    }
+
+    .subtext-group {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .subtext-group>span {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16.09px;
+    }
+
+    .benefit__content--title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .benefit__content--button button {
+        padding: 25px 35px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 10px;
+        letter-spacing: 0.05em;
+    }
+
+    .icon img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .icon__right h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 14px;
+    }
+
+    .calculator__tab,
+    .calculator__tab.active {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 13.79px;
+    }
+
+    .calculator__descripton--title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .calculator__description p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    .card:first-child {
+        border-radius: 0;
+    }
+
+    .card:last-child {
+        border-radius: 0;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .card__button {
+        width: 215px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 10px;
+        letter-spacing: 0.05em;
+    }
+
+    .faq {
+        margin: 80px 0px 0px 0px;
+    }
+
+    .star-item {
+        display: none;
+    }
+
+    .faq__buttons button {
+        font-size: 11px;
+        padding: 13px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq__title {
+        font-size: 24px;
+    }
+
+    .text-bold {
+        font-size: 16px;
+    }
+
+    .text-default {
+        font-size: 14px;
+    }
+
+    .requirements__content {
+        padding: 10px;
+    }
+
+    .requirments__info-item {
+        width: 364px;
+        height: 385px;
+    }
+
+    .footer__content {
+        padding: 33px 10px 33px 10px;
+    }
+
+    .footer__box {
+        gap: 0px;
+    }
+
+}

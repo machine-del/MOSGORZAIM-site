@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МОСГОРЗАЙМ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__menu">
+                <img src="images/icons/burger__menu.png" alt="menu">
+            </div>
+            <h1 class="header__title">МОСГОРЗАЙМ</h1>
+
+            <nav class="header__services">
+                <a href="#" class="header__service-item">Залог ПТС</a>
+                <a href="#" class="header__service-item">Залог АВТО</a>
+            </nav>
+
+            <div class="header__buttons">
+                <button class="header__button">Оплатить онлайн</button>
+                <button class="header__button">Получить займ</button>
+            </div>
+
+            <div class="header__about">
+                <div class="header__phone-icon">
+                    <img src="images/icons/icon-phone.png" alt="#">
+                </div>
+                <div class="header__phone-box">
+                    <span class="header__phone-note">Бесплатно в России</span>
+                    <span class="header__phone">8 800 000 00 00</span>
+                </div>
+            </div>
+
+            <div class="header__personal">
+                <img src="images/icons/icon-user.png" alt="#">
+                <a href="#" class="header__personal-link">Личный кабинет</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main">
+            <div class="main__content">
+                <div class="main__title">МОСГОРЗАЙМ</div>
+                <div class="main__info">
+                    <div class="main__info-item">
+                        <img src="images/icons/icons8-billing-64 1.png" alt="Ставка" class="main__info-icon">
+                        <p>Ставка <br> от 3 %</p>
+                    </div>
+                    <div class="main__info-item">
+                        <img src="images/icons/icons8-car-64 1.png" alt="Транспорт" class="main__info-icon">
+                        <p>Любое <br> транспортное <br> средство</p>
+                    </div>
+                    <div class="main__info-item">
+                        <img src="images/icons/icons8-time-machine-64 1.png" alt="Быстро" class="main__info-icon">
+                        <p>Быстро и <br> без отказа</p>
+                    </div>
+                    <div class="main__info-item">
+                        <img src="images/icons/icons8-money-64 1.png" alt="45 минут" class="main__info-icon">
+                        <p>Выдача займа <br> за 45 минут</p>
+                    </div>
+                </div>
+                <div class="main__arrow">
+                    <img src="images/icons/icon-arrow-down.png" alt="Стрелка вниз">
+                </div>
+            </div>
+            <img src="images/icons/Vehicle.png" alt="Автомобиль" class="main__car">
+        </section>
+        <section class="calculator-section">
+            <div class="calculator-section__background"></div>
+            <div class="calculator">
+                <div class="calculator__container">
+                    <h2 class="calculator__title">Рассчитать займ</h2>
+                    <div class="calculator__tabs row">
+                        <button class="calculator__tab active col">Основной тариф</button>
+                        <button class="calculator__tab col">Калькулятор автоломбарда</button>
+                    </div>
+                    <div class="calculator__content row">
+                        <div class="calculator__column col">
+                            <div class="calculator__column-group">
+                                <div class="calculator__column-group--left">
+                                    <div class="text-group">Сумма</div>
+                                    <div class="subtext-group">10 000 <span>руб.</span></div>
+                                </div>
+                                <div class="calculator__column-group--right">
+                                    <div class="question-box">
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="range" class="calculator__slider" min="0" max="100000" value="10000">
+                            <div class="calculator__slider--subtext">
+                                <span>0</span>
+                                <span>2 мл.</span>
+                                <span>3 мл.</span>
+                                <span>10 мл.</span>
+                                <span>20 мл.</span>
+                            </div>
+                        </div>
+                        <div class="calculator__column col">
+                            <div class="calculator__column-group">
+                                <div class="calculator__column-group--left">
+                                    <div class="text-group">Срок</div>
+                                    <div class="subtext-group">10 <span>дней</span></div>
+                                </div>
+                                <div class="calculator__column-group--right">
+                                    <div class="question-box">
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="range" class="calculator__slider" min="0" max="36" value="6">
+                            <div class="calculator__slider--subtext">
+                                <span>0</span>
+                                <span>9 мес.</span>
+                                <span>18 мес.</span>
+                                <span>24 мес.</span>
+                                <span>36 мес.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calculator__content row">
+                        <div class="card border-0 col">
+                            <div class="icon">
+                                <img src="images/icons/icons-parking.png" alt="#">
+                                <div class="icon__right">
+                                    <h2>СТОЯНКА</h2>
+                                    <span>Максимальная сумма, <br> минимальный процент</span>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <span>Автомобиль остается: <span style="color: #464855;">на стоянке</span></span>
+                                <span>Размер займа? <span style="color: #464855;">до 80%</span></span>
+                                <span>Ставка в день: <span style="color: #464855;">от 0,1%</span></span>
+                                <span>Категория ТС: <span style="color: #464855;">A, B, C, D, E</span></span>
+                            </div>
+                            <div class="description__text">Ежемесячный платеж: <span class="span-description-text">500 <span class="span-description-subtext">руб.</span></span></div>
+                            <div class="description__subtext">Оставьте заявку
+                                и получите <br> индивидуальные условия</div>
+                            <button class="card__button">ПОЛУЧИТЬ ЗАЙМ</button>
+                        </div>
+                        <div class="card border-0 col">
+                            <div class="icon">
+                                <img src="images/icons/icons-document.png" alt="#">
+                                <div class="icon__right">
+                                    <h2>ПТС 2.0</h2>
+                                    <span>Максимальная сумма, минимальный процент</span>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <span>Автомобиль остается: <span style="color: #464855;">на стоянке</span></span>
+                                <span>Размер займа? <span style="color: #464855;">до 80%</span></span>
+                                <span>Ставка в день: <span style="color: #464855;">от 0,1%</span></span>
+                                <span>Категория ТС: <span style="color: #464855;">A, B, C, D, E</span></span>
+                            </div>
+                            <div class="description__text">Ежемесячный платеж: <span class="span-description-text">500 <span class="span-description-subtext">руб.</span></span></div>
+                            <div class="description__subtext">Оставьте заявку
+                                и получите <br> индивидуальные условия</div>
+                            <button class="card__button">ПОЛУЧИТЬ ЗАЙМ</button>
+                        </div>
+                    </div>
+                    <div class="calculator__description">
+                        <div class="calculator__descripton--title">
+                            Займы под залог автомобиля
+                        </div>
+                        <p>Автоломбард предлагает лучшие условия на получение займа под залог ПТС или авто. Получите до
+                            90% стоимости автомобиля под ставку от 2%. Всего 2 документа для получения залога: паспорт
+                            РФ и ПТС.</p>
+                        <p>Заложить авто или ПТС (без сдачи машины с правом пользования) в автомобильный Ломбард:
+                            срочно, без справок и без подтверждения доходов.</p>
+                        <p>Процедура довольно проста, Вам достаточно приехать в Автоломбард или наш выездной менеджер
+                            приедет к Вам, после чего Ваш автомобиль будет оценен и если предложенные условия Вам
+                            подойдут — специалисты помогут оформить все документы. Мы работаем без выходных.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="aboutjob">
+            <div class="aboutjob__content">
+                <div class="aboutjob__title">Как работает автоломбард?</div>
+                <div class="aboutjob__info">
+                    <div class="aboutjob__info-item">
+                        <div class="rounded-img">
+                            <img src="images/icons/icon-document.png" alt="Icon Document">
+                        </div>
+                        <div class="aboutjob__boxing">
+                            <div class="aboutjob__info-item--title">Оформите заявку</div>
+                            <div class="aboutjob__info-item--subtitle">
+                                Укажите все данные о себе в небольшой анкете, чтобы мы смогли оперативно принять решение
+                                о
+                                выдаче займа
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icon-arrow-right">
+                        <img src="images/icons/angle-right-solid 1.png" alt="#">
+                    </div>
+
+                    <div class="aboutjob__info-item">
+                        <div class="rounded-img">
+                            <img src="images/icons/icon-timer.png" alt="Icon Hourglass">
+                        </div>
+                        <div class="aboutjob__boxing">
+                            <div class="aboutjob__info-item--title">Дождитесь рассмотрения</div>
+                            <div class="aboutjob__info-item--subtitle">
+                                Наш менеджер оперативно проверит все данные и получит подтверждение.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icon-arrow-right">
+                        <img src="images/icons/angle-right-solid 1.png" alt="#">
+                    </div>
+
+                    <div class="aboutjob__info-item">
+                        <div class="rounded-img">
+                            <img src="images/icons/icon-documentandpencil.png" alt="Icon Contract">
+                        </div>
+                        <div class="aboutjob__boxing">
+                            <div class="aboutjob__info-item--title">Подпишите договор</div>
+                            <div class="aboutjob__info-item--subtitle">
+                                Подпишите документы без посещения офиса, через СМС.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icon-arrow-right">
+                        <img src="images/icons/angle-right-solid 1.png" alt="#">
+                    </div>
+
+                    <div class="aboutjob__info-item">
+                        <div class="aboutjob__box">
+                            <img src="images/icons/icons8-money-transfer-64 2.png" width="64px" height="64px"
+                                alt="Icon Money">
+                            <div class="aboutjob__info-item--title">Получите деньги</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="requirements">
+            <div class="requirements__content">
+                <div class="requirments__title">Требования для получения займа</div>
+                <div class="requirments__info">
+                    <div class="requirments__info-item">
+                        <div class="requirments__info-item--title">К заемщику</div>
+                        <div class="requirments__info-item--description">
+                            <ol>
+                                <li>Возраст от 18 лет</li>
+                                <li>Регистрация на территории РФ</li>
+                                <li>Собственник автомобиля / <br> доверенное лицо</li>
+                                <li>Кредитная история не имеет значения</li>
+                                <li>Справка 2НДФЛ не требуется</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="requirments__info-item">
+                        <div class="requirments__info-item--title">К автомобилю</div>
+                        <div class="requirments__info-item--description">
+                            <ol>
+                                <li>Состоит на учёте в ГИБДД</li>
+                                <li>Не старше 15 лет (Исключение <br> раритерные/коллекционные авто)</li>
+                                <li>В исправном техническом <br> состоянии</li>
+                                <li>Не находится в залоге</li>
+                                <li>Допускается дубликат ПТС</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="requirments__info-item">
+                        <div class="requirments__info-item--title">К документом</div>
+                        <div class="requirments__info-item--description">
+                            <ol>
+                                <li>Паспорт гражданина РФ</li>
+                                <li>ПТС - Паспорт технического <br> средства</li>
+                                <li>СТС - Свидетельство о <br> регистрации транспортного <br> средства</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefit">
+            <div class="benefit__content">
+                <div class="benefit__content--title">Подберите выгодные <br> условия займа для себя</div>
+                <div class="benefit__content--arrow">
+                    <img src="/images/icons/icon-benefit-arraw.png" alt="arraw">
+                </div>
+                <div class="benefit__content--button">
+                    <button>Расчитать займ</button>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="feedback__content">
+                <div class="feedback__title">Отзывы</div>
+                <div class="feedback__info">
+                    <div class="feedback__item">
+                        <div class="feedback__message">
+                            <span>“</span>Это мой отзыв. Он очень интересный и главное увлекательный. Я поделись своими
+                            впечатлениями и очень надеюсь что кому-то помогу с выбором.<span>”</span>
+                        </div>
+                        <div class="feedback__readfull">
+                            <a href="#">Читать полностью</a>
+                        </div>
+                        <div class="feedback__user">
+                            <div class="user__name">
+                                <h2>Иванов</h2>
+                                <h3>Петр Семенович</h3>
+                            </div>
+                            <div class="user__avatar">
+                                <img src="/images/avatar/user1.png" alt="user">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feedback__item">
+                        <div class="feedback__message">
+                            <span>“</span>Хочу выразить большую благодарность, что вы трудную минуту пришли на помощь и
+                            выручили деньгами. Сервис на высоте, срок рассмотрения заявки минимальный и моментальное
+                            пополнение карты онлайн без звездочек и нюансев.<span>”</span>
+                        </div>
+                        <div class="feedback__readfull">
+                            <a href="#">Читать полностью</a>
+                        </div>
+                        <div class="feedback__user">
+                            <div class="user__name">
+                                <h2>Семенова</h2>
+                                <h3>Анна Потаповна</h3>
+                            </div>
+                            <div class="user__avatar">
+                                <img src="/images/avatar/user2.png" alt="user">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__message">
+                            <span>“</span>Все на выссшем уровне. Быстор надежно и очень классно!<span>”</span>
+                        </div>
+                        <div class="feedback__user">
+                            <div class="user__name">
+                                <h2>Василенко</h2>
+                                <h3>Екатерина Чеивна</h3>
+                            </div>
+                            <div class="user__avatar">
+                                <img src="/images/avatar/user3.png" alt="user">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__message">
+                            <span>“</span>Это мой отзыв. Он очень интересный и главное увлекательный. Я поделись своими
+                            впечатлениями и очень надеюсь что кому-то помогу с выбором.<span>”</span>
+                        </div>
+                        <div class="feedback__readfull">
+                            <a href="#">Читать полностью</a>
+                        </div>
+                        <div class="feedback__user">
+                            <div class="user__name">
+                                <h2>Иванов</h2>
+                                <h3>Петр Семенович</h3>
+                            </div>
+                            <div class="user__avatar">
+                                <img src="/images/avatar/user1.png" alt="user">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <div class="star active"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+                <div class="faq">
+                    <div class="faq__content">
+                        <div class="faq__title">Вопросы и ответы</div>
+                        <div class="faq__info">
+                            <p class="text-bold">Как рассчитать сумму, которую даст ломбард под машину? </p>
+                            <p class="text-bold">Как считается сумма кредита и процентные ставки? </p>
+                            <p class="text-default">Минимальная сумма займа — 150 тыс. рублей.</p>
+                            <p class="text-default">Максимальная же зависит от вида транспортного средства, его
+                                состояния, года выпуска и т.д. ,
+                                то есть исчисляется на основании оценочной стоимости и ликвидности предмета залога.
+                                Процентные ставки различны в зависимости от того, какую программу Вы выбрали.
+                            </p>
+                            <p class="text-default">Подробную информацию о процентных ставках для каждого случая Вы
+                                сможете получить у нашего специалиста.</p>
+                            <p class="text-bold">Какие у Вас возможные сроки займа?</p>
+                            <p class="text-bold">Какова процедура оформления автомобиля в автоломбарде? Какие документы
+                                должны выдать на руки?</p>
+                        </div>
+                        <div class="faq__buttons">
+                            <button>Все вопросы</button>
+                            <button>задать вопрос</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__content">
+            <div class="footer__box">
+                <div class="footer__address">
+                    <h3 class="footer__title">МОСГОРЗАЙМ</h3>
+                    <p>&copy; 2020, Ангара</p>
+                    <p>Адрес<br>600000, г. Какой-то, ул. Какая-то, 1</p>
+                </div>
+
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="#">Залог ПТС</a></li>
+                        <li><a href="#">Залог АВТО</a></li>
+                        <li><a href="#">Калькулятор</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Клиентам</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="#">Оплатить займ</a></li>
+                        <li><a href="#">Получить займ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="#">Личный кабинет</a></li>
+                        <li><a href="#">Поиск</a></li>
+                        <li><a href="#">Карта сайта</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <div class="box">
+                        <div class="footer__phone-icon">
+                            <img src="images/icons/icon-phone.png" alt="#">
+                        </div>
+                        <div class="footer__phone-box">
+                            <span class="footer__phone-note">Бесплатно в России</span>
+                            <span class="footer__phone">8 800 000 00 00</span>
+                        </div>
+                    </div>
+                    <div class="footer__icons">
+                        <a href="#"><img src="images/icons/WeChat_Rounded_icon-icons.com_61569 1.png" alt="icon1" /></a>
+                        <a href="#"><img src="images/icons/Twitter_Rounded_icon-icons.com_61577 1.png"
+                                alt="icon2" /></a>
+                        <a href="#"><img src="images/icons/Instagram_Rounded_icon-icons.com_61576 1.png"
+                                alt="icon3" /></a>
+                        <a href="#"><img src="images/icons/Facebook_Rounded_icon-icons.com_61578 1.png"
+                                alt="icon4" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
