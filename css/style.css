@@ -12,6 +12,7 @@ body {
 }
 
 a:hover {
+    color: #fff !important;
     opacity: 0.8 !important;
 }
 
@@ -294,6 +295,11 @@ header {
     color: #464855;
     border: none;
 }
+
+.calculator__tab button {
+    cursor: pointer;
+}
+
 
 .calculator__tab:last-child {
     box-shadow: -20px 0px 0px #E5E6EB;
